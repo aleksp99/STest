@@ -25,7 +25,17 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>aleks_p99@mail.ru</vendor>
+  <version>1.0.0.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>github.com/aleksp99</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>github.com/aleksp99/STest</value>
+  </configurationInformationAddress>
   <languages uuid="814cc0bd-47dc-4a25-92ab-c6903369e507" extendedConfigurationObject="7e5b1ab0-d1d5-4a1b-b42e-4f026b88aae2">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
