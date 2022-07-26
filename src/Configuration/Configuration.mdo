@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e00c1d02-4a1a-49ce-9ea2-d4cdd9566ae0">
+  <name>PushA</name>
+  <synonym>
+    <key>ru</key>
+    <value>PushA</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="dd6707ef-5766-4ccd-8c30-1de46cb7bd25"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="eb5b4dd0-2617-43dc-956d-6e64af93ffaa"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="3e81f1f9-c603-4e41-af26-a86e21ee9758"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a24fc06b-bc90-4cd8-93a0-df6710b4756b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a8089467-9e57-4453-8e48-62990f0a11ec"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d8ce1c1f-1350-4eed-ae25-2bd02d9c7bbb"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="712c9b7f-fbd7-4c2c-b85d-c4804cd0a275"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>PA_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.15</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <languages uuid="814cc0bd-47dc-4a25-92ab-c6903369e507" extendedConfigurationObject="7e5b1ab0-d1d5-4a1b-b42e-4f026b88aae2">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonPictures>CommonPicture.ОбъетыМетаданных</commonPictures>
+  <dataProcessors>DataProcessor.СценарноеТестированиеИнтерактивныхДействий</dataProcessors>
+  <informationRegisters>InformationRegister.СтруктураМетаданных</informationRegisters>
+</mdclass:Configuration>

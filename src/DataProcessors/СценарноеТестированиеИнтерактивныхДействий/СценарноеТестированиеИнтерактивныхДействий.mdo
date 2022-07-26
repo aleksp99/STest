@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7b1644c4-0c8e-41b2-b608-894bb579ff15" extendedConfigurationObject="cd089adf-da69-4bbd-beb4-5e5177658fc6">
+  <producedTypes>
+    <objectType typeId="9a0efab0-efc5-42e2-977b-95733a8d5dbf" valueTypeId="7852896a-8254-4ba0-90c5-b0832fbd522d"/>
+    <managerType typeId="c478cee9-b2a8-45fc-bf67-f001a6765fc6" valueTypeId="e616d874-3200-41ae-ab59-381aa472e2fa"/>
+  </producedTypes>
+  <name>СценарноеТестированиеИнтерактивныхДействий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="0f621669-3d4d-4a4c-bca5-b277aa531a8a" extendedConfigurationObject="5eeaa1d2-5ee1-40ae-8058-cb155289d0f3">
+    <name>Исследователь</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="ef62cc8c-5569-4017-bcbc-57d6f034bf1e" extendedConfigurationObject="e459c577-1897-4823-ba59-68530f870dab">
+    <name>ОсновнаяФорма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="ce6ce80e-0209-47bf-b502-99b5ffe4b0cc">
+    <name>Аутентификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутентификация</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

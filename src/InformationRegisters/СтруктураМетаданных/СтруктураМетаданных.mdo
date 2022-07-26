@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ecdc5721-7ecc-488b-9af3-0f279256c12b" extendedConfigurationObject="1b58199f-1fd0-4238-a814-61e69763f0f4">
+  <producedTypes>
+    <selectionType typeId="79a33e02-8acd-4bdc-a693-c7e5cbf9b17e" valueTypeId="4bd9bc10-1cce-465d-bf48-95847bf579f1"/>
+    <listType typeId="d6d6a3d1-8193-4f49-a5be-161503efa3e6" valueTypeId="26a51d07-1049-4adc-924e-6b8c5f60ad1b"/>
+    <managerType typeId="1c46dca4-5fbd-4e69-a265-895c7f565521" valueTypeId="7db772b5-eb7c-4592-95b5-10976dcce96a"/>
+    <recordSetType typeId="dfb0493f-f90c-4799-a7d8-037cab3a43fb" valueTypeId="9f904c6f-c2e9-4836-9097-161ab59fd4db"/>
+    <recordKeyType typeId="d0a7a657-4121-4440-8b27-0a4b147b8120" valueTypeId="0c28da1c-22eb-44c0-90ef-9fa017e3f811"/>
+    <recordType typeId="0f519a23-bc95-4228-8e7c-48cc0889ff0a" valueTypeId="9ed4910d-7cb4-492b-8f2e-3018bd198afb"/>
+    <recordManagerType typeId="74210bc8-9f11-4c40-b7a6-69911d3522c0" valueTypeId="3044b785-b4b8-46e2-aa2b-37f40b791155"/>
+  </producedTypes>
+  <name>СтруктураМетаданных</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <forms uuid="dcbb4650-a909-485f-81eb-33c7ff44217d" extendedConfigurationObject="06790f63-81f2-41ea-84c8-f2811f8ba82d">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:InformationRegister>
